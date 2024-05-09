@@ -2,7 +2,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     
+    
 
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    height: 100vh;
 }
 
 #Home {
@@ -38,10 +47,36 @@ h5 {
     color: white;
 }
 
-#About {
+#About, #Resume, #Skills, #Projects {
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center;
 }
 
+.custom-list {
+    list-style: none;
+    background-color: black;
+}
+
+.custom-list-item {
+    padding: ;
+}
+
+.headings {
+    color: #e4b50c;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  .carousel-item {
+    text-align: center;
+  }
+
+  #Projects button {
+    color: aqua;
+  }
