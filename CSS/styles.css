@@ -1,7 +1,7 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    
+    font-size: 18px;
     
 
 }
@@ -45,7 +45,7 @@ h5 {
     color: white;
 }
 
-#About, #Resume, #Skills, #Projects {
+#About, #Resume, #Skills, #Projects, #Testimonials {
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -61,4 +61,6 @@ h5 {
     color: #e4b50c;
 }
 
-
+.tech-icons {
+    color: #e4b50c;
+}
