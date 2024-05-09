@@ -17,12 +17,13 @@
 
         <main>
             <section id="Home">
-                <div class="container pb-5 header">
-                    <div class="row justify-content-center">
+                <div class="overlay"></div>
+                <div class="container pb-5 header w-100">
+                    <div class="row justify-content-center w-100">
                         <div class="col-auto">
                             <div></div>
                             <h2 class="mt-3">Hi. I'm Caleb Okkers, a Web
-                                Developer</h1>
+                                Developer</h2>
                         </div>
                     </div>
                 </div>
@@ -36,52 +37,62 @@
                         style="height: 50%;">
                         <div
                             class="col-6 d-flex justify-content-center p-5 mb-5 mr-5">
+                            <a href="#About" class="nav-links">
+                                <div class="card mx-2 cardimg align-items-center"
+                                style="width: 8rem; height: 12rem;">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                       <h6 class="card-title text-light text-center">About</h6>
+                                    </div>
+                                </div>
+                            </a>
+                            
                             <div class="card mx-2 cardimg"
-                                style="width: 9.5rem; height: 14.5rem;">
-                                <div class="card-body">
-                                    <h5
-                                        class="card-title text-light text-center mt-5">About</h5>
+                                style="width: 8rem; height: 12rem;">
+                                <div class="card-body  d-flex justify-content-center align-items-center">
+                                    <h6 class="card-title text-light text-center"><a href="#Resume">Resume</a></h6>
                                 </div>
                             </div>
-                            <div class="card mx-2 cardimg"
-                                style="width: 9.5rem; height: 14.5rem;">
-                                <div class="card-body">
-                                    <h5
-                                        class="card-title text-light text-center mt-5">Resume</h5>
+                            <a href="#Skills">
+                                <div class="card mx-2 cardimg"
+                                style="width: 8rem; height: 12rem;">
+                                <div class="card-body  d-flex justify-content-center align-items-center">
+                                    <h6
+                                        class="card-title text-light text-center">Skills</h6>
                                 </div>
                             </div>
-                            <div class="card mx-2 cardimg"
-                                style="width: 9.5rem; height: 14.5rem;">
-                                <div class="card-body">
-                                    <h5
-                                        class="card-title text-light text-center mt-5">Skills</h5>
-                                </div>
-                            </div>
+                            </a>
+                            
                         </div>
                         <div
                             class="col-6 d-flex justify-content-end p-5 mb-5 ml-5">
-                            <div class="card mx-2 cardimg"
-                                style="width: 9.5rem; height: 14.5rem;">
-                                <div class="card-body">
-                                    <h5
-                                        class="card-title text-light text-center mt-5">Projects</h5>
+                            <a href="#Projects">
+                                <div class="card mx-2 cardimg"
+                                style="width: 8rem; height: 12rem;">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <h6
+                                        class="card-title text-light text-center">Projects</h6>
                                 </div>
                             </div>
-                            <div class="card mx-2 cardimg"
-                                style="width: 9.5rem; height: 14.5rem;">
-                                <div class="card-body">
-                                    <h5
-                                        class="card-title text-light text-center mt-5">Testimonials</h5>
+                            </a>
+                            <a href="#Testimonials">
+                                <div class="card mx-2 cardimg"
+                                style="width: 8rem; height: 12rem;">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <h6 class="card-title text-light text-center">Testimonials</h6>
                                 </div>
                             </div>
-                            <div class="card mx-2 cardimg"
-                                style="width: 9.5rem; height: 14.5rem;">
-                                <div class="card-body">
-                                    <h5
-                                        class="card-title text-light text-center d-flex justify-content-center align-items-center mt-5">
-                                        Contact</h5>
+                            </a>
+                            <a href="#Contact">
+                                <div class="card mx-2 cardimg"
+                                style="width: 8rem; height: 12rem;">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <h6
+                                        class="card-title text-light text-center d-flex justify-content-center align-items-center">
+                                        Contact</h6>
                                 </div>
                             </div>
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
@@ -108,18 +119,27 @@
                             <div>
                                 <h3 class="text-center headings">About</h3>
                                 <br>
-                                <p>I am an easy going person who enjoys having
+                                <p>
+                                    I am an easy going person who enjoys having
                                     fun and joking around while knowing when to
-                                    be serious as well.
+                                    be serious.
                                     I admire values such as respect,kindness and
                                     integrity. I also pride myself on being
                                     quite honest and transparent.
+                                    I enjoy improving myself and encouraging others.
                                     My interests are almost endless but my
-                                    favourite hobbies are MMA, football,
+                                    favourite hobbies are exercising, MMA, football,
                                     drawing,
                                     music, watching movies and spending time
                                     with my loved ones.
-
+                                </p>
+                                <br>
+                                <h3 class="text-center headings">Objective</h3>
+                                <br>
+                                <p>
+                                    I am quite ambitious and strive to be healthy and succesful in all
+                                    areas of my life. I aim to cultivate generational weatlh and and impact 
+                                    many lives for the better. I am a leader so I will lead. 
                                 </p>
                             </div>
                         </div>
@@ -202,15 +222,15 @@
                             <h2 class="mt-5 d-flex justify-content-center">Tech
                                 Stack</h2>
                             <div class="d-flex justify-content-center mt-5">
-                                <i class="fa-brands fa-html5 fa-beat fa-3x mx-5 tech-icons"></i>
+                                <i class="fa-brands fa-html5 fa-beat fa-3x mx-5 icons"></i>
                                 <i
-                                    class="fa-brands fa-css3-alt fa-beat fa-3x  mx-5 tech-icons"></i>
-                                <i class="fa-brands fa-js fa-beat fa-3x  mx-5 tech-icons"></i>
-                                <i class="fa-brands fa-git fa-beat fa-3x  mx-5 tech-icons"></i>
+                                    class="fa-brands fa-css3-alt fa-beat fa-3x  mx-5 icons"></i>
+                                <i class="fa-brands fa-js fa-beat fa-3x  mx-5 icons"></i>
+                                <i class="fa-brands fa-git fa-beat fa-3x  mx-5 icons"></i>
                                 <i
-                                    class="fa-brands fa-github fa-beat fa-3x  mx-5 tech-icons"></i>
+                                    class="fa-brands fa-github fa-beat fa-3x  mx-5 icons"></i>
                                 <i
-                                    class="fa-brands fa-bootstrap fa-beat fa-3x  mx-5 tech-icons"></i>
+                                    class="fa-brands fa-bootstrap fa-beat fa-3x  mx-5 icons"></i>
                             </div>
                         </div>
                     </div>
@@ -270,7 +290,7 @@
                     <div class="row">
                         <div
                             class="col-12 d-flex justify-content-center mt-3 mb-3">
-                            <h2>Projects</h2>
+                            <h2 class="headings">Projects</h2>
                         </div>
                     </div>
                 </div>
@@ -302,7 +322,7 @@
                                             class="d-block w-100" alt="...">
                                         <div
                                             class="carousel-caption d-none d-md-block">
-                                            <h5>First slide label</h5>
+                                            <h5>To Do List </h5>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -311,7 +331,7 @@
                                             class="d-block w-100" alt="...">
                                         <div
                                             class="carousel-caption d-none d-md-block">
-                                            <h5>Second slide label</h5>
+                                            <h5>Hulu Clone</h5>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -320,7 +340,7 @@
                                             class="d-block w-100" alt="...">
                                         <div
                                             class="carousel-caption d-none d-md-block">
-                                            <h5>Third slide label</h5>
+                                            <h5>LSTNR MP3 Player</h5>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -329,7 +349,7 @@
                                             class="d-block w-100" alt="...">
                                         <div
                                             class="carousel-caption d-none d-md-block">
-                                            <h5>fourth slide label</h5>
+                                            <h5>Role Play Game</h5>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -338,7 +358,7 @@
                                             class="d-block w-100" alt="...">
                                         <div
                                             class="carousel-caption d-none d-md-block">
-                                            <h5>fifth slide label</h5>
+                                            <h5>Calculator</h5>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -378,7 +398,7 @@
                     <div class="row">
                         <div
                             class="col-12 d-flex justify-content-center mt-3 mb-3">
-                            <h2>Testimonials</h2>
+                            <h2 class="headings">Testimonials</h2>
                         </div>
                     </div>
                 </div>
@@ -552,6 +572,46 @@
                         </div>
                     </div>
                     <div class="col-2 d-flex justify-content-center"></div>
+                </div>
+            </section>
+            <section id="Contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center mt-3 mb-3">
+                            <h2 class="headings">Contact Me</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <i class="fa-solid fa-phone fa-beat fa-3x mx-4 icons"></i>
+                                <i class="fa-brands fa-linkedin fa-beat fa-3x mx-4 icons"></i>
+                                <i class="fa-brands fa-github fa-beat fa-3x mx-4 icons"></i>
+                                <i class="fa-brands fa-instagram fa-beat fa-3x mx-4 icons"></i>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="container">
+                                <form class="mt-5" action="https://formspree.io/f/xgegrwwd" method="POST">
+                                  <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" name="message"></textarea>
+                                  </div>
+                                  <button type="submit" class="btn custom-submit-button">Submit</button>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
