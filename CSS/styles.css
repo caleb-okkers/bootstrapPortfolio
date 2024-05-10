@@ -10,7 +10,6 @@
 
 section {
     height: 100vh;
-    overflow-y: scroll;
 }
 
 #Home {
@@ -126,13 +125,6 @@ h5 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.mySkillsRow{
-    justify-content: space-evenly;
-}
-.myIconList{
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .custom-list {
     list-style: none;
@@ -161,6 +153,10 @@ h5 {
 
 .nav {
     background-color: black;
+}
+
+#ts {
+    margin-left: 37%;
 }
 
 .carousel-item {
@@ -544,6 +540,8 @@ h5 {
     left: 20px;
 }
 
+
+
 .img {
     max-width: 100%;
     height: auto;
@@ -608,11 +606,5 @@ footer i {
     footer {
         flex-direction: column;
         text-align: center;
-    }
-}
-
-@media only screen and( width: 300px ){
-    .myNav >*{
-        scale: .5;
     }
 }
