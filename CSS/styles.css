@@ -6,8 +6,6 @@
 
 }
 
-
-
 section {
     height: 100vh;
 }
@@ -42,7 +40,7 @@ section {
     }
 
     33% {
-        content: "UX Designer";
+        content: "UI/UX Designer";
     }
 
     66% {
@@ -67,7 +65,7 @@ section {
 .dropdown-item:focus,
 .dropdown-item:hover {
     background-color: #e4b50c !important;
-    /* Set background color to transparent */
+    
 }
 
 .hspan {
@@ -155,6 +153,11 @@ h5 {
     background-color: black;
 }
 
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+
 #ts {
     margin-left: 37%;
 }
@@ -171,6 +174,13 @@ h5 {
 .prj-labels {
     text-decoration: none;
     color: white;
+}
+
+.prj-labels:hover {
+    color: #e4b50c;
+    transform: scale(1.04);
+    transition: transform 0.5s;
+
 }
 
 .testimonial-two {
@@ -549,31 +559,25 @@ h5 {
 .nav-links{
     text-decoration: none;
 }
-/* For screens up to 300px */
+
+
 @media (max-width: 300px) {
 
-    /* Adjust styles for screens up to 300px */
-    /* For example: */
     body {
         font-size: 12px;
     }
 }
 
-/* For screens between 301px and 720px */
+
 @media (min-width: 301px) and (max-width: 720px) {
 
-    /* Adjust styles for screens between 301px and 720px */
-    /* For example: */
     body {
         font-size: 14px;
     }
 }
 
-/* For screens larger than 720px */
 @media (min-width: 721px) {
 
-    /* Adjust styles for screens larger than 720px */
-    /* For example: */
     body {
         font-size: 16px;
     }
