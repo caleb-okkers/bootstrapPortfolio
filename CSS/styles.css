@@ -141,16 +141,16 @@ h5 {
     background-color: #e4b50c !important;
 }
 
-#navbar {
+.navbar {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: black;
+    background-color: black !important;
 }
 
 .nav {
-    background-color: black;
+    background-color: black !important;
 }
 
 .navbar-nav .nav-item.dropdown .dropdown-menu {
@@ -535,7 +535,6 @@ h5 {
 
 .testimonial-five blockquote:before {
     content: "“";
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -590,7 +589,6 @@ footer {
     padding: 2rem;
     background: #000;
     ;
-    border-top: 4px solid #fff;
     color: #fff;
 }
 
